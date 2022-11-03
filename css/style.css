@@ -1,0 +1,11 @@
+.my-flex-block{
+    height: 100px;
+    margin: 10px;
+    background-color: red;
+}
+.my-flex-container{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

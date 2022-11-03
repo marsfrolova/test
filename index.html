@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    /*flexbox*/
+    <div class="my-flex-container">
+        <div class="my-flex-block">item1</div>
+        <div class="my-flex-block">item2</div>
+        <div class="my-flex-block">item3</div>
+    </div>
+
+/*Кнопки*/
+    <form name="search_form" action="#" method="post" style="background-color: #246345; max-width: 350px;" >
+    <div style="max-width: 350px;">
+        <label for="first_name" style="display: block;">First Name</label><br>
+        <input name="first_name" type="text" placeholder="First Name" id="first_name" style="width: 100%; box-sizing: border-box;" >        
+    </div>
+
+    <div style="max-width: 350px;">
+        <label>       
+        <input name="i_agree" type="checkbox" checked>
+        I agree about ..........
+        </label>     
+    </div>
+
+    <div >
+        <h4>Gender</h4>
+        <label>       
+        <input name="gender" type="radio" value="man">
+        man
+        </label>
+        <label>       
+        <input name="gender" type="radio" value="woman">
+        woman
+        </label>  
+        <label>       
+        <input name="gender" type="radio" value="other">
+         other
+        </label>       
+    </div>
+    <div>
+        <h4>work</h4>
+        <label>       
+        <input name="lection" type="radio" value="lection">
+        lection
+        </label>
+        <label>       
+        <input name="homework" type="radio" value="homework">
+        homework
+        </label>  
+        <label>       
+        <input name="videolessons" type="radio" value="videolessons">
+        videolessons
+        </label>       
+    </div>
+    <div style="max-width: 350px;">
+        <input name="load" type="file">
+    </div>
+    <div style="max-width: 350px;">
+        <label for="message" style="display: block;">Message</label>
+        <textarea name="message" id="message" style="resize: none; width: 100%; box-sizing: border-box;"></textarea>
+    </div>
+    <div style="max-width: 350px;">
+        <label for="city" style="display: block;">City</label>
+        <select name="city" id="city" style="width: 100%;">
+            <option>Kiev</option>
+            <option>Kharkiv</option>
+            <option>Dnepr</option>
+            <option>Odesa</option>
+        </select>
+    </div>
+    <button type="reset">Clear</button>
+    <button type="submit">Send</button>
+    </form>
+</body>
+</html>
